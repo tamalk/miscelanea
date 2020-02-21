@@ -22,7 +22,7 @@ while True:
         print("Not very nice, lad. However, don't give up, length doesn't matter at all, pal. The council rates it " + str(points) + "/10.")
     elif (length < 17) and (length >= 12):
         brutepoints = random.randint((50 - length), (75 - length))
-        points = brutepoints + length / 10
+        points = (brutepoints + length) / 10
         print("Fair, a little above the average. The council rates it " + str(points) + "/10.")
     else:
         brutepoints = random.randint(75, 100)
