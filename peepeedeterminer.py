@@ -4,7 +4,7 @@ import random
 os.system("title PYTHON PEE PEE SIZE DETERMINER")
 def ns(res):
     while res!=("Y") and res!=("N") and res!= ("y") and res!=("n"):
-        print(chr(7)); cat=input("Please type only [Y] or [N], according to your choice: ")
+        print(chr(7)); res = input("Please type only [Y] or [N], according to your choice: ")
     return (res)
 
 while True:
